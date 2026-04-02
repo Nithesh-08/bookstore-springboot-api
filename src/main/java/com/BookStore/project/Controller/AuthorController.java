@@ -11,15 +11,15 @@ import java.util.List;
 @RequestMapping("/api/authors")
 public class AuthorController {
     @Autowired
-    private AuthorRepository repo;
+    private AuthorService service;
 
     @PostMapping
     public Author create(@RequestBody Author author) {
-        return repo.save(author);
+        return service.save(author);
     }
 
     @GetMapping
     public List<Author> getAll() {
-        return repo.findAll();
+        return service.findAll();
     }
 }
