@@ -26,14 +26,14 @@ I built this project to practice REST API development and understand how real ba
 - Exception → Handles errors globally  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   API Endpoints
+  
   📘 Books
 - POST /api/books  
 - GET /api/books  
 - GET /api/books/{id}  
 - PUT /api/books/{id}  
 - DELETE /api/books/{id}  
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- ✍️ Authors
+   ✍️ Authors
 - POST /api/authors  
 - GET /api/authors  
 - GET /api/authors/{id}  
